@@ -1,0 +1,752 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-03T18:32:23.953Z",
+        "line": 14,
+        "name": "Verify if user is successfully added using usersInfoAPI",
+        "description": "",
+        "id": "validating-user-crud-operations;verify-if-user-is-successfully-added-using-usersinfoapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1536964900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users info Payload with \"ramiz\" \"hindi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramiz\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"hindi\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefPlaceVilidation.users_info_Payload_with(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2102299000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"usersInfoAPI\" with \"post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usersInfoAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefPlaceVilidation.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c202\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat parallel.StepDefPlaceVilidation.the_API_call_is_successfull_with_status_code(StepDefPlaceVilidation.java:100)\r\n\tat ✽.the API call is successfull with status code 201(classpath:parallel/crudUser/crudUser.feature:7)\r\n",
+              "duration": 1434500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the API call is successfull with status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefPlaceVilidation.the_API_call_is_successfull_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"name\" in response is \"ramiz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"ramiz\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"job\" in response is \"hindi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"job\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"hindi\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@usersInfoAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T18:32:27.604Z",
+        "line": 15,
+        "name": "Verify if user is successfully added using usersInfoAPI",
+        "description": "",
+        "id": "validating-user-crud-operations;verify-if-user-is-successfully-added-using-usersinfoapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3623300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "users info Payload with \"Bhouse\" \"espinol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bhouse\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"espinol\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefPlaceVilidation.users_info_Payload_with(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 561202400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user calls \"usersInfoAPI\" with \"post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usersInfoAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"post\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefPlaceVilidation.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c201\u003e but was:\u003c202\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:645)\r\n\tat org.junit.Assert.assertEquals(Assert.java:631)\r\n\tat parallel.StepDefPlaceVilidation.the_API_call_is_successfull_with_status_code(StepDefPlaceVilidation.java:100)\r\n\tat ✽.the API call is successfull with status code 201(classpath:parallel/crudUser/crudUser.feature:7)\r\n",
+              "duration": 245200,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "the API call is successfull with status code 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 45
+                }
+              ],
+              "location": "StepDefPlaceVilidation.the_API_call_is_successfull_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "\"name\" in response is \"Bhouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Bhouse\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "\"job\" in response is \"espinol\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"job\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"espinol\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@usersInfoAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T18:32:28.170Z",
+        "line": 18,
+        "name": "Verify if delete user api is working",
+        "description": "",
+        "id": "validating-user-crud-operations;verify-if-delete-user-api-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 978100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Users api",
+            "match": {
+              "location": "StepDefUserVilidation.users_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 612998100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user calls \"deleteUserAPI\" with \"delete\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deleteUserAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"delete\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefPlaceVilidation.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "for delete api the API call is successfull with status code 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefPlaceVilidation.for_delete_api_the_API_call_is_successfull_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deleteUserAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T18:32:28.787Z",
+        "line": 34,
+        "name": "Verify if user is successfully Updated using usersInfoAPI",
+        "description": "",
+        "id": "validating-user-crud-operations;verify-if-user-is-successfully-updated-using-usersinfoapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7512300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "users update Payload with \"ramiz\" \"hindiTeacher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ramiz\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"hindiTeacher\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefPlaceVilidation.users_update_Payload_with(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 623724400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user calls \"UpdateUserAPI\" with \"update\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateUserAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"update\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefPlaceVilidation.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "for update api the API call is successfull with status code 202",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefPlaceVilidation.for_update_api_the_API_call_is_successfull_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13019100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "\"name\" in response is \"ramiz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"ramiz\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10589400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "\"job\" in response is \"hindiTeacher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"job\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"hindiTeacher\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateUserAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T18:32:29.443Z",
+        "line": 35,
+        "name": "Verify if user is successfully Updated using usersInfoAPI",
+        "description": "",
+        "id": "validating-user-crud-operations;verify-if-user-is-successfully-updated-using-usersinfoapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4586200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "users update Payload with \"Bhouse\" \"espinolTeacher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bhouse\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"espinolTeacher\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefPlaceVilidation.users_update_Payload_with(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 615797100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user calls \"UpdateUserAPI\" with \"update\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UpdateUserAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"update\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefPlaceVilidation.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "for update api the API call is successfull with status code 202",
+            "match": {
+              "arguments": [
+                {
+                  "val": "202",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefPlaceVilidation.for_update_api_the_API_call_is_successfull_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 29157100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "\"name\" in response is \"Bhouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Bhouse\"",
+                  "offset": 22
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12653300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "\"job\" in response is \"espinolTeacher\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"job\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"espinolTeacher\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateUserAPI"
+          }
+        ]
+      }
+    ],
+    "name": "Validating user CRUD operations",
+    "description": "",
+    "id": "validating-user-crud-operations",
+    "keyword": "Feature",
+    "uri": "classpath:parallel/crudUser/crudUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-03T18:32:23.953Z",
+        "line": 4,
+        "name": "Verify user info page",
+        "description": "",
+        "id": "no-of-users;verify-user-info-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 553504500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Users api",
+            "match": {
+              "location": "StepDefUserVilidation.users_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2780776800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user calls \"usersInfoAPI\" with \"get\" http request and queryParam",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"usersInfoAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"get\"",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefPlaceVilidation.user_calls_with_http_request_and_queryParam(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1742800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "for update api the API call is successfull with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefPlaceVilidation.for_update_api_the_API_call_is_successfull_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 419257400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "\"data[0].first_name\" in response is \"Michael\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"data[0].first_name\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"Michael\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefPlaceVilidation.in_response_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-03T18:32:27.716Z",
+        "line": 12,
+        "name": "Verify single user info",
+        "description": "",
+        "id": "no-of-users;verify-single-user-info",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 905300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Users api",
+            "match": {
+              "location": "StepDefUserVilidation.users_api()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 306619600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user calls \"singleuserAPI\" with \"get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"singleuserAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"get\"",
+                  "offset": 32
+                }
+              ],
+              "location": "StepDefPlaceVilidation.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "for update api the API call is successfull with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefPlaceVilidation.for_update_api_the_API_call_is_successfull_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 304661200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify first_name in reponse maps to \"Michael\" using \"usersInfoAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Michael\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"usersInfoAPI\"",
+                  "offset": 53
+                }
+              ],
+              "location": "StepDefPlaceVilidation.verify_first_name_in_reponse_maps_to_using(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "No of users",
+    "description": "",
+    "id": "no-of-users",
+    "keyword": "Feature",
+    "uri": "classpath:parallel/userInfo/userInfo.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,162 @@
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "ramiz",
+    "job": "hindi"
+}
+HTTP/1.1 201 Created
+Date: Wed, 03 Mar 2021 18:32:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 80
+Connection: keep-alive
+Set-Cookie: __cfduid=dbe251419fb79c840ae6bfa96604b893c1614796346; expires=Fri, 02-Apr-21 18:32:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"50-nfVa4Mb4SayCgDrNuoO2D07kUoQ"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 089af5ee700000de5ae8010000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=RCJAO%2BMA%2BN%2Bs8thWZr59TZY7e6nI09ifK0ML81b2ybG9fUBo5iI4wxW9XQSSJ9Q7FTf08MQ3UyLVAxGYRlGfrIkVTn6gdn1u6T0%3D"}],"max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 62a4f290b9a0de5a-BOM
+
+{
+    "name": "ramiz",
+    "job": "hindi",
+    "id": "353",
+    "createdAt": "2021-03-03T18:32:27.342Z"
+}
+Request method:	POST
+Request URI:	https://reqres.in/api/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bhouse",
+    "job": "espinol"
+}
+HTTP/1.1 201 Created
+Date: Wed, 03 Mar 2021 18:32:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 82
+Connection: keep-alive
+Set-Cookie: __cfduid=dfeb0d2272765060bfe5804153537e36c1614796347; expires=Fri, 02-Apr-21 18:32:27 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"52-o//mB6+pGpIeklMIpr3gfjabdoE"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 089af5f14c0000de25040f9000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=X%2FK7P33jJS4GyayfqN1NCsCtCqBvrdeX2Ia2aOpkswJIgOALdaZdpwjwq35WcuBzgLWDCR5I%2Bu87q8h%2B3348We3FjroS1WsFBus%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 62a4f29549cbde25-BOM
+
+{
+    "name": "Bhouse",
+    "job": "espinol",
+    "id": "41",
+    "createdAt": "2021-03-03T18:32:27.930Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "ramiz",
+    "job": "hindiTeacher"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Mar 2021 18:32:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=d99556feced4db8c81605cf6a221c7e351614796348; expires=Fri, 02-Apr-21 18:32:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4c-O+TuA0yCCRmwuAo4DkkmM9TYKCM"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 089af5f5ef0000de05563b2000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=rGK8SHepfnLtnk%2FCya01VcasT5hf5QKg231qaQmO3KQIJo%2BBRl4hQ%2Bi9PXt19Tos1rg1S0g6k1u92zoVgVmuklsKzdVc4efanBQ%3D"}],"max_age":604800,"group":"cf-nel"}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 62a4f29cbb41de05-BOM
+Content-Encoding: gzip
+
+{
+    "name": "ramiz",
+    "job": "hindiTeacher",
+    "updatedAt": "2021-03-03T18:32:29.127Z"
+}
+Request method:	PUT
+Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Bhouse",
+    "job": "espinolTeacher"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Mar 2021 18:32:29 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Set-Cookie: __cfduid=df1ef03da6b1c86cb920af67830abfd821614796349; expires=Fri, 02-Apr-21 18:32:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"4f-BtVUMrvDdj2ML+5XcCBgL2GP3KY"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+cf-request-id: 089af5f8610000de56471f1000000001
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=fCS8L4MsZcpWIOPNaaoQUAQl53Jl%2BM0OvTu9LwLdsIlK8d35NODR2ycwlVxLPQMsuvnSo%2BP638M9627REc13JjGFRsde1Fx1s2c%3D"}]}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 62a4f2a09dbdde56-BOM
+Content-Encoding: gzip
+
+{
+    "name": "Bhouse",
+    "job": "espinolTeacher",
+    "updatedAt": "2021-03-03T18:32:29.747Z"
+}

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Validating user CRUD operations
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6.151 s <<< FAILURE! - in Validating user CRUD operations
+Verify if user is successfully added using usersInfoAPI(Validating user CRUD operations)  Time elapsed: 3.647 s  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<202>
+
+Verify if user is successfully added using usersInfoAPI(Validating user CRUD operations)  Time elapsed: 0.565 s  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<202>
+
