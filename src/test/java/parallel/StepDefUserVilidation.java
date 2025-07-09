@@ -33,7 +33,7 @@ public class StepDefUserVilidation extends utils {
 	 }
 	@Given("Users api")
 	public void users_api() throws IOException {
-		 world.res = given().request().baseUri(getproperties("baseUrl2")).log().all();
+		 world.res = given().request().baseUri(getproperties("baseUrl2")).header("x-api-key", "reqres-free-v1").log().all();
 		 System.out.println(world.res);
 
 	}

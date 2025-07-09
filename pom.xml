@@ -54,8 +54,8 @@
 							</jsonFiles>
 							<!-- optional, defaults to outputDirectory if not specified -->
 
-							<parallelTesting>false</parallelTesting>
-							<!-- optional, set true to group features by its Ids -->
+<!--							<parallelTesting>false</parallelTesting>-->
+<!--							&lt;!&ndash; optional, set true to group features by its Ids &ndash;&gt;-->
 							<mergeFeaturesById>false</mergeFeaturesById>
 							<!-- optional, set true to get a final report with latest results 
 								of the same test from different test runs -->
@@ -102,5 +102,11 @@
     <version>6.8.1</version>
     <scope>test</scope>
 </dependency>
+		<!-- https://mvnrepository.com/artifact/org.codehaus.groovy/groovy -->
+		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy</artifactId>
+			<version>3.0.8</version>
+		</dependency>
 	</dependencies>
 </project>

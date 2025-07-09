@@ -5,7 +5,8 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
@@ -15,28 +16,35 @@ Body:
     "job": "hindi"
 }
 HTTP/1.1 201 Created
-Date: Wed, 03 Mar 2021 18:32:27 GMT
+Date: Wed, 09 Jul 2025 09:29:25 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 80
 Connection: keep-alive
-Set-Cookie: __cfduid=dbe251419fb79c840ae6bfa96604b893c1614796346; expires=Fri, 02-Apr-21 18:32:26 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
-X-Powered-By: Express
+CF-RAY: 95c6cbfab83e7956-AMD
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1752053365&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=IqpfpiF02qPtbGkTgrpl%2Fs4ezoQ58clvUczjxx1m4Hw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1752053365&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=IqpfpiF02qPtbGkTgrpl%2Fs4ezoQ58clvUczjxx1m4Hw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Access-Control-Allow-Origin: *
-Etag: W/"50-nfVa4Mb4SayCgDrNuoO2D07kUoQ"
+X-Request-Id: dc7876f4-47cf-480a-b69a-b5fa71f02f38
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 98
+Ratelimit-Reset: 60
+Etag: W/"50-8UV1NbIIO+JW3v3ukjli0yDLzC0"
 Via: 1.1 vegur
-CF-Cache-Status: DYNAMIC
-cf-request-id: 089af5ee700000de5ae8010000000001
-Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=RCJAO%2BMA%2BN%2Bs8thWZr59TZY7e6nI09ifK0ML81b2ybG9fUBo5iI4wxW9XQSSJ9Q7FTf08MQ3UyLVAxGYRlGfrIkVTn6gdn1u6T0%3D"}],"max_age":604800}
-NEL: {"max_age":604800,"report_to":"cf-nel"}
+cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 62a4f290b9a0de5a-BOM
+server-timing: cfL4;desc="?proto=TCP&rtt=18092&min_rtt=17933&rtt_var=6838&sent=7&recv=7&lost=0&retrans=0&sent_bytes=3106&recv_bytes=856&delivery_rate=244242&cwnd=252&unsent_bytes=0&cid=5b10ee0281a86731&ts=545&x=0"
 
 {
     "name": "ramiz",
     "job": "hindi",
-    "id": "353",
-    "createdAt": "2021-03-03T18:32:27.342Z"
+    "id": "901",
+    "createdAt": "2025-07-09T09:29:25.221Z"
 }
 Request method:	POST
 Request URI:	https://reqres.in/api/users
@@ -45,7 +53,8 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
@@ -55,28 +64,35 @@ Body:
     "job": "espinol"
 }
 HTTP/1.1 201 Created
-Date: Wed, 03 Mar 2021 18:32:27 GMT
+Date: Wed, 09 Jul 2025 09:29:26 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 82
+Content-Length: 83
 Connection: keep-alive
-Set-Cookie: __cfduid=dfeb0d2272765060bfe5804153537e36c1614796347; expires=Fri, 02-Apr-21 18:32:27 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
-X-Powered-By: Express
+CF-RAY: 95c6cc011c96afdd-SIN
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1752053366&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FrxgMj%2FIkasXfjV0j%2F2Tqredu1Dg2UZ2W1VLk2ZuTvg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1752053366&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=%2FrxgMj%2FIkasXfjV0j%2F2Tqredu1Dg2UZ2W1VLk2ZuTvg%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Access-Control-Allow-Origin: *
-Etag: W/"52-o//mB6+pGpIeklMIpr3gfjabdoE"
+X-Request-Id: cb19b5d3-4cde-4fb4-a28b-eb3216d16b9f
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 96
+Ratelimit-Reset: 59
+Etag: W/"53-qw2Y4su9VI6NrgDA3qY/w3eTOTA"
 Via: 1.1 vegur
-CF-Cache-Status: DYNAMIC
-cf-request-id: 089af5f14c0000de25040f9000000001
-Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=X%2FK7P33jJS4GyayfqN1NCsCtCqBvrdeX2Ia2aOpkswJIgOALdaZdpwjwq35WcuBzgLWDCR5I%2Bu87q8h%2B3348We3FjroS1WsFBus%3D"}],"group":"cf-nel","max_age":604800}
-NEL: {"max_age":604800,"report_to":"cf-nel"}
+cf-cache-status: DYNAMIC
 Server: cloudflare
-CF-RAY: 62a4f29549cbde25-BOM
+server-timing: cfL4;desc="?proto=TCP&rtt=78044&min_rtt=77577&rtt_var=29425&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3106&recv_bytes=859&delivery_rate=56460&cwnd=252&unsent_bytes=0&cid=ca3f7af7a6142f2e&ts=479&x=0"
 
 {
     "name": "Bhouse",
     "job": "espinol",
-    "id": "41",
-    "createdAt": "2021-03-03T18:32:27.930Z"
+    "id": "417",
+    "createdAt": "2025-07-09T09:29:26.227Z"
 }
 Request method:	PUT
 Request URI:	https://reqres.in/api/users/2
@@ -85,7 +101,8 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
@@ -95,29 +112,36 @@ Body:
     "job": "hindiTeacher"
 }
 HTTP/1.1 200 OK
-Date: Wed, 03 Mar 2021 18:32:29 GMT
+Date: Wed, 09 Jul 2025 09:29:27 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=d99556feced4db8c81605cf6a221c7e351614796348; expires=Fri, 02-Apr-21 18:32:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
-X-Powered-By: Express
+Content-Encoding: gzip
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1752053367&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=T0pdO6g3NAVMkcU6e9a1MJqjGKsi2DIMfr%2Bl%2FN%2FXSiY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1752053367&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=T0pdO6g3NAVMkcU6e9a1MJqjGKsi2DIMfr%2Bl%2FN%2FXSiY%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Access-Control-Allow-Origin: *
-Etag: W/"4c-O+TuA0yCCRmwuAo4DkkmM9TYKCM"
+X-Request-Id: 5b3347d8-3807-4373-9cc6-34b43b141420
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 92
+Ratelimit-Reset: 58
+Etag: W/"4c-KyimjDqe74qJg9/rE+oKoMTYY5o"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 089af5f5ef0000de05563b2000000001
-Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=rGK8SHepfnLtnk%2FCya01VcasT5hf5QKg231qaQmO3KQIJo%2BBRl4hQ%2Bi9PXt19Tos1rg1S0g6k1u92zoVgVmuklsKzdVc4efanBQ%3D"}],"max_age":604800,"group":"cf-nel"}
-NEL: {"max_age":604800,"report_to":"cf-nel"}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 62a4f29cbb41de05-BOM
-Content-Encoding: gzip
+CF-RAY: 95c6cc0a099d5f41-SIN
+server-timing: cfL4;desc="?proto=TCP&rtt=79357&min_rtt=78296&rtt_var=30119&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3105&recv_bytes=864&delivery_rate=55941&cwnd=236&unsent_bytes=0&cid=257d7531fdeac9fb&ts=453&x=0"
 
 {
     "name": "ramiz",
     "job": "hindiTeacher",
-    "updatedAt": "2021-03-03T18:32:29.127Z"
+    "updatedAt": "2025-07-09T09:29:27.644Z"
 }
 Request method:	PUT
 Request URI:	https://reqres.in/api/users/2
@@ -126,7 +150,8 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Accept=*/*
+Headers:		x-api-key=reqres-free-v1
+				Accept=*/*
 				Content-Type=application/json; charset=UTF-8
 Cookies:		<none>
 Multiparts:		<none>
@@ -136,27 +161,34 @@ Body:
     "job": "espinolTeacher"
 }
 HTTP/1.1 200 OK
-Date: Wed, 03 Mar 2021 18:32:29 GMT
+Date: Wed, 09 Jul 2025 09:29:28 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Set-Cookie: __cfduid=df1ef03da6b1c86cb920af67830abfd821614796349; expires=Fri, 02-Apr-21 18:32:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
-X-Powered-By: Express
+Content-Encoding: gzip
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1752053368&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=zraAb8CU6DnClUtU7EniD8qHXbc%2BsAhz8Q5pJhCHM94%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1752053368&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=zraAb8CU6DnClUtU7EniD8qHXbc%2BsAhz8Q5pJhCHM94%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Access-Control-Allow-Origin: *
-Etag: W/"4f-BtVUMrvDdj2ML+5XcCBgL2GP3KY"
+X-Request-Id: 77badbf0-8194-42de-a77e-e5aa3b4b3f3c
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Ratelimit-Policy: 100;w=60
+Ratelimit-Limit: 100
+Ratelimit-Remaining: 90
+Ratelimit-Reset: 58
+Etag: W/"4f-chnlSg8FlR9uqHTs3ODh5+KrwTs"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 089af5f8610000de56471f1000000001
-Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=fCS8L4MsZcpWIOPNaaoQUAQl53Jl%2BM0OvTu9LwLdsIlK8d35NODR2ycwlVxLPQMsuvnSo%2BP638M9627REc13JjGFRsde1Fx1s2c%3D"}]}
-NEL: {"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 62a4f2a09dbdde56-BOM
-Content-Encoding: gzip
+CF-RAY: 95c6cc0d2b1b7941-AMD
+server-timing: cfL4;desc="?proto=TCP&rtt=25354&min_rtt=25183&rtt_var=9787&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3107&recv_bytes=867&delivery_rate=164934&cwnd=252&unsent_bytes=0&cid=e8fb3f9e03f662e1&ts=483&x=0"
 
 {
     "name": "Bhouse",
     "job": "espinolTeacher",
-    "updatedAt": "2021-03-03T18:32:29.747Z"
+    "updatedAt": "2025-07-09T09:29:28.174Z"
 }

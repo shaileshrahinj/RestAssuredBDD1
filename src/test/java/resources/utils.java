@@ -31,8 +31,7 @@ public class utils {
 		//for logging.txt file should not replace exsisting logs
 		if(req==null) {
 		PrintStream log= new PrintStream(new FileOutputStream("loggin.txt"));
-	    req = new RequestSpecBuilder().setBaseUri(getproperties("baseUrl2")).
-	    		//addQueryParam("key", "qaclick123")
+	    req = new RequestSpecBuilder().setBaseUri(getproperties("baseUrl2")).addHeader("x-api-key", "reqres-free-v1").
 				addFilter(RequestLoggingFilter.logRequestTo(log))
 				.addFilter(ResponseLoggingFilter.logResponseTo(log))
 				.setContentType(ContentType.JSON).build();
@@ -46,7 +45,7 @@ public class utils {
 	//to get properties from global.properties
 	public static String getproperties(String key) throws IOException {
 		Properties prop=new Properties();
-		FileInputStream fis=new FileInputStream("C:\\Shaz\\Work\\APIFramework2\\src\\test\\java\\resources\\globalProperties.properties");
+		FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+ "\\src\\test\\java\\resources\\globalProperties.properties");
 		prop.load(fis);
 		return prop.getProperty(key);
 		
